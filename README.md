@@ -1,8 +1,8 @@
 This code is based on a quick one-off script to bulk import members
 into Microsoft Teams private channels using the Microsoft Graph API.
 
-It uses a minimal Flask web interface for authentication, to obtain
-and cache the OAuth2 token.  Then CLI only scripts can use the cached
+It uses a minimal Flask web interface for authentication, in order to
+obtain and cache the OAuth2 token.  Then CLI scripts can use the cached
 token to list information about MS Teams and to add members to private
 channels.
 
